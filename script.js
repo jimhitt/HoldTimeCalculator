@@ -10,14 +10,14 @@ const holdTimes = [
     { name: "Enoxaparin (Lovenox) 1.5 mg/kg SQ daily or 1 mg/kg SQ q12h", hours: 24 },
     { name: "Enoxaparin (Lovenox) 30 mg SQ q12h", hours: 12 },
     { name: "Enoxaparin (Lovenox) 40 mg SQ daily", hours: 12 },
-    { name: "Fondaparinux (Arixtra)", hours: 36 },
-    { name: "Heparin 5000 units SQ q8h or q12h", hours: 4 },
-    { name: "Heparin 7500 units SQ q8h or q12h", hours: 12 },
-    { name: "Heparin IV infusion", hours: 4 },
-    { name: "Prasugrel (Effient)", hours: 120 },
+    { name: "Fondaparinux (Arixtra)", hours: 42 },
+    { name: "Heparin 5000 units SQ q8h or q12h (verify normal aPTT)", hours: 4 },
+    { name: "Heparin 7500 units SQ q8h or q12h (verify normal aPTT)", hours: 12 },
+    { name: "Heparin IV infusionm (verify normal aPTT)", hours: 4 },
+    { name: "Prasugrel (Effient)", hours: 240 },
     { name: "Rivaroxaban (Xarelto) 15-20 mg daily", hours: 72 },
-    { name: "Ticagrelor (Brilinta)", hours: 72 },
-    { name: "Warfarin (Coumadin)", hours: 120 }
+    { name: "Ticagrelor (Brilinta)", hours: 168 },
+    { name: "Warfarin (Coumadin); verify normal INR", hours: 120 }
 ];
 
 // Get the container for the anticoagulant options
