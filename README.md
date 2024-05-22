@@ -6,7 +6,7 @@ This repository contains an HTML application for calculating hold time, implemen
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/hold-time-calculator.git
+   git clone hhttps://github.com/jimhitt/HoldTimeCalculator.git
 
 ---
 
