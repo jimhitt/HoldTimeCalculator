@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anticoagulant Hold Time Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Anticoagulant Hold Time Calculator</h2>
+        <p>Source: <a href="https://med.stanford.edu/content/dam/sm/pain/documents/neuraxial-procedure-v2-3.26.19.pdf" target="_blank">Stanford Medicine Anticoagulant Guidelines</a> (Accessed on: 5/20/2024)</p>
+        <label>Select Anticoagulant or Antiplatelet Agent:</label>
+        <div class="anticoagulant-options" id="anticoagulantOptions"></div>
+
+        <label for="procedureDateTime">Procedure Date and Time:</label>
+        <input type="datetime-local" id="procedureDateTime">
+
+        <button onclick="calculateHoldTime()">Calculate Hold Start Time</button>
+
+        <p id="result"></p>
+
+        <div class="disclaimer">
+            <p>Disclaimer: The provided hold times are for informational purposes only and not for clinical use. 
+                Patients should verify the hold time with their physician if there are any questions or concerns about the provided information.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
